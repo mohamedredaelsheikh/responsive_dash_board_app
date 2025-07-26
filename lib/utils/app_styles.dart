@@ -30,7 +30,7 @@ abstract class AppStyles {
 
   static TextStyle styleMedium20(BuildContext context) {
     return TextStyle(
-      color: const Color(0xFFFFFFFF),
+      color: const Color(0xff064061),
       fontSize: 20,
       fontFamily: 'Montserrat',
       fontWeight: FontWeight.w500,
