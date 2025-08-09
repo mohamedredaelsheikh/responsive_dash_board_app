@@ -27,6 +27,8 @@ class LatestTransactionListView extends StatelessWidget {
     ];
 
     /// you do not have to add fixed height to row
+    /// you should use row if you have small items in the list
+
     return SingleChildScrollView(
       scrollDirection: Axis.horizontal,
       child: Row(
@@ -47,6 +49,7 @@ class LatestTransactionListView extends StatelessWidget {
 /*
 
 you have to give the list view a fixed height.
+you should use list view .builder if you have many items in the list
  SizedBox(
       height: 80,
       child: ListView.builder(
