@@ -32,9 +32,9 @@ class AllExpensesItemHeader extends StatelessWidget {
             ),
           ),
         ),
-        Expanded(child: SizedBox()),
+        const Spacer(),
         Transform.rotate(
-          angle: 1.57079633 + 1.57079633,
+          angle: -1.57079633 * 2,
           child: Icon(
             Icons.arrow_back_ios_new_outlined,
             color:
