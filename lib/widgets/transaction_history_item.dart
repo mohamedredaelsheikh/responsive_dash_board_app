@@ -12,7 +12,7 @@ class TransactionHistoryItem extends StatelessWidget {
       color: Color(0xffFAFAFA),
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
       child: ListTile(
-        leading: Text(
+        title: Text(
           transactionModel.title,
           style: AppStyles.styleSemiBold16(context),
         ),

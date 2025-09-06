@@ -12,7 +12,7 @@ class AllExpenses extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          AllExpensesHeader(),
+          AllHeader(title: "All Expenses"),
           SizedBox(height: 16),
           AllExpensesItemsListView(),
         ],
